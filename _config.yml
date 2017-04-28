@@ -10,8 +10,8 @@ collections:
     output: true
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: smallkitchen
 github_username: semibad
 markdown: kramdown
