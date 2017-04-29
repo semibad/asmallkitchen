@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  recipes:
+    title: recipes
+    output: true
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.
 baseurl: 
