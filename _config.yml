@@ -18,7 +18,6 @@ url:
 twitter_username: smallkitchen
 github_username: semibad
 markdown: kramdown
-theme: minima
 gems:
 - jekyll-feed
 exclude:
@@ -30,5 +29,6 @@ defaults:
          path: ""
          type: "recipes"
       values:
+         layout: "recipe"
          ingredients: []
          recipe-text: ""
