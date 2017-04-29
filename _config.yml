@@ -11,6 +11,14 @@ collections:
   recipes:
     title: recipes
     output: true
+defaults:
+- scope:
+    path: ''
+    type: recipes
+  values:
+    layout: recipe
+    ingredients: []
+    recipe-text: ''
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.
 baseurl: 
@@ -23,12 +31,3 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
-defaults:
-   -
-      scope:
-         path: ""
-         type: "recipes"
-      values:
-         layout: "recipe"
-         ingredients: []
-         recipe-text: ""
