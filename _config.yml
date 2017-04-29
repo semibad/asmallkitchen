@@ -24,3 +24,11 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+defaults:
+   -
+      scope:
+         path: ""
+         type: "recipes"
+      values:
+         ingredients: []
+         recipe-text: ""
