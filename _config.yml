@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
   recipes:
-    title: recipes
+    title: Recipes
     output: true
 defaults:
 - scope:
@@ -19,6 +19,7 @@ defaults:
     layout: recipe
     ingredients: []
     recipe-text: ''
+paginate: 10
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.
 baseurl: 
@@ -28,6 +29,7 @@ github_username: semibad
 markdown: kramdown
 gems:
 - jekyll-feed
+- jekyll-paginate
 exclude:
 - Gemfile
 - Gemfile.lock
