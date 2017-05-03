@@ -1,12 +1,10 @@
 ---
 title: A small kitchen
 timezone: UTC
+permalink: pretty
 collections:
   posts:
     title: Posts
-    output: true
-  recipes:
-    title: Recipes
     output: true
   uploads:
     title: Uploads
