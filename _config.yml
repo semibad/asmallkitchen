@@ -17,10 +17,9 @@ defaults:
     type: posts
   values:
     layout: recipe
-    recipes: [
+    recipes:
        ingredients: []
        recipe-text: ''
-    ]
 paginate: 10
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.
