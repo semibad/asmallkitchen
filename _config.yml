@@ -28,7 +28,7 @@ defaults:
         item: ''
       method_text: ''
       notes: []
-   inspirations: []
+    inspirations: []
 paginate: 10
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.
