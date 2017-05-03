@@ -5,11 +5,11 @@ collections:
   posts:
     title: Posts
     output: true
-  uploads:
-    title: Uploads
-    output: true
   recipes:
     title: Recipes
+    output: true
+  uploads:
+    title: Uploads
     output: true
 defaults:
 - scope:
@@ -18,8 +18,8 @@ defaults:
   values:
     layout: recipe
     recipes:
-       ingredients: []
-       recipe-text: ''
+      ingredients: []
+      recipe-text: ''
 paginate: 10
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.
