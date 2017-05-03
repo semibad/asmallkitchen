@@ -14,11 +14,13 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: recipes
+    type: posts
   values:
     layout: recipe
-    ingredients: []
-    recipe-text: ''
+    recipes: [
+       ingredients: []
+       recipe-text: ''
+    ]
 paginate: 10
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.
