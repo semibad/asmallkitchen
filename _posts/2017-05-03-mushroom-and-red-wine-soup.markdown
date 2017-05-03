@@ -1,10 +1,6 @@
 ---
 title: Mushroom and red wine soup
 date: 2017-05-03 09:40:00 Z
-categories:
-- soup
-- dinner
-- vegetarian
 tags:
 - soup
 - mushrooms
