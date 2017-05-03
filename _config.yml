@@ -17,11 +17,11 @@ defaults:
     type: posts
   values:
     layout: recipe
-    illustration_image
-    header_image
+    illustration_image: ''
+    header_image: ''
     recipes:
     - title: ''
-      header_image
+      header_image: ''
       ingredients:
       - unit: ''
         item: ''
