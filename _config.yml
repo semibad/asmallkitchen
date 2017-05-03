@@ -1,7 +1,6 @@
 ---
 title: A small kitchen
 timezone: UTC
-permalink: pretty
 collections:
   posts:
     title: Posts
@@ -27,6 +26,7 @@ defaults:
       method_text: ''
       notes: []
     inspirations: []
+permalink: pretty
 paginate: 10
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.
