@@ -16,7 +16,8 @@ defaults:
     path: ''
     type: posts
   values:
-    layout: recipe
+    layout: post
+    intro_text: ''
     illustration_image: ''
     header_image: ''
     recipes:
@@ -27,6 +28,7 @@ defaults:
         item: ''
       method_text: ''
       notes: []
+   inspirations: []
 paginate: 10
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.

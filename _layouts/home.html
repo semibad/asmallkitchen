@@ -9,65 +9,19 @@
 	
 	<main class='list'>
 	
+	   {% for post in site.posts %}
+	
 		<article>
 		
-			<img src="/img/test/mushroom.png">
+			<img src="{{ post.illustration_image }}">
 			
-			<h3><a href='article.html'>mushroom and red wine soup</a></h3>
+			<h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
 			
-			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p>{{ post.intro_text }}</p>
 		
 		</article>
 		
-		<article>
-		
-			<img src="/img/test/elderberries.png">
-			
-			<h3><a href='article.html'>pontack</a></h3>
-			
-			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		
-		</article>
-		
-		<article>
-		
-			<img src="/img/test/mushroom.png">
-			
-			<h3><a href='article.html'>mushroom and red wine soup</a></h3>
-			
-			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		
-		</article>
-		
-		<article>
-		
-			<img src="/img/test/elderberries.png">
-			
-			<h3><a href='article.html'>pontack</a></h3>
-			
-			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		
-		</article>
-		
-		<article>
-		
-			<img src="/img/test/mushroom.png">
-			
-			<h3><a href='article.html'>mushroom and red wine soup</a></h3>
-			
-			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		
-		</article>
-		
-		<article>
-		
-			<img src="/img/test/elderberries.png">
-			
-			<h3><a href='article.html'>pontack</a></h3>
-			
-			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		
-		</article>
+		{% endfor %}
 				
 	</main>
 	
