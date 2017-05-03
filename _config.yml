@@ -17,9 +17,16 @@ defaults:
     type: posts
   values:
     layout: recipe
+    illustration_image
+    header_image
     recipes:
-      ingredients: []
-      recipe-text: ''
+    - title: ''
+      header_image
+      ingredients:
+      - unit: ''
+        item: ''
+      method_text: ''
+      notes: []
 paginate: 10
 email: hey@asmallkitchen.com
 description: You found SOME FOOD.
