@@ -21,6 +21,14 @@
 		
 		{% for recipe in page.recipes %}
 		
+		   {% if recipe.title %}
+		   
+		   <h3>{% recipe.title %}</h3>
+		   
+		   {% endif %}
+		
+		   {% if recipe.ingredients %}
+		
    		<section class='ingredients'>
    		
    		   <h4>Ingredients</h4>
@@ -36,6 +44,8 @@
    		   </ul>
    		
    		</section>
+   		
+   		{% endif %}
 		
    		<section class='recipe'>
    		
@@ -44,6 +54,26 @@
    		   {{ recipe.method_text | markdownify }}
    		
    		</section>
+   		
+   		{% if recipe.notes %}
+   		
+   		<section class='notes'>
+   		
+   		   <h4>Notes</h4>
+   		   
+   		   <ol>
+   		   
+   		      {% for note in recipe.notes %}
+   		      
+   		      <li>{{ note }}</li>
+   		      
+   		      {% endfor %}
+   		   
+   		   </ol>
+   		
+   		</section>
+   		
+   		{% endif %}
    		
    	{% endfor %}
 		
