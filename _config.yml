@@ -1,6 +1,8 @@
 ---
-title: A small kitchen
+title: Shoulda put an egg on it
+description: You found SOME FOOD.
 timezone: UTC
+
 collections:
   posts:
     title: Posts
@@ -8,6 +10,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+
 defaults:
 - scope:
     path: ''
@@ -26,14 +29,19 @@ defaults:
       method_text: ''
       notes: []
     inspirations: []
-permalink: pretty
+
+
 paginate: 10
-email: hey@asmallkitchen.com
-description: You found SOME FOOD.
+paginate_path: "/recipes/:num/"
+
 baseurl: 
-url: 
+url:
+permalink: pretty
+
+email: hey@asmallkitchen.com
 twitter_username: smallkitchen
 github_username: semibad
+
 markdown: kramdown
 gems:
 - jekyll-feed

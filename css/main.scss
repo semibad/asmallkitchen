@@ -37,7 +37,7 @@ a {
 	color: #000;
 	
 	&:hover {
-		text-shadow: 0 0 1px #000;
+		text-shadow: 0 0 1px #fff, 0 0 2px rgba(0,0,0,0.5);
 	}
 	
 }
@@ -68,7 +68,7 @@ main {
 	}
 	
 	section {
-	   margin: 30px 0 0;
+	   margin: 40px 0 0;
 	   
 	   h3 {
 	      margin: 0 0 30px;
@@ -80,16 +80,22 @@ main {
 		margin: 20px 0 0;
 	}
 	
-	.recipe {
-		margin: 60px 0 0;
-	}
-	
 	.ingredients {
 		
 		strong {
 			font-weight: 600;
 		}
 		
+	}
+	
+	ol {
+	   list-style: decimal outside;
+	   padding-left: 20px;
+	}
+	
+	ul {
+	   list-style: square outside;
+	   padding-left: 20px;
 	}
 	
 }
