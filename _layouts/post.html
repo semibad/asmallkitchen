@@ -10,9 +10,13 @@
 	<main class='recipe'>
 	
 		<section class='intro'>
-		
+		   
+		   {% if page.illustration_image %}		   
 		   <img src='{{ page.illustration_image }}'>
-	
+		   {% else %}
+	      <img src='/img/egg.png'>
+	      {% endif %}
+	      
 			<h3>{{ page.title }}</h3>
 			
 			{{ content }}

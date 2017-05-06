@@ -13,7 +13,11 @@
 	
 		<article>
 		
-			<img src="{{ post.illustration_image }}">
+			{% if post.illustration_image %}		   
+			<img src='{{ post.illustration_image }}'>
+			{% else %}
+			<img src='/img/egg.png'>
+			{% endif %}
 			
 			<h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
 			

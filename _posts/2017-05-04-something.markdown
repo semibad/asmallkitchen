@@ -1,0 +1,29 @@
+---
+title: Something
+date: 2017-05-03 10:14:00 Z
+tags:
+- preserves
+- elderberries
+- foraging
+- sauce
+intro_text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+illustration_image: false
+recipes:
+- ingredients:
+  - unit: 1kg
+    item: Elderberries (see notes)
+  - unit: 500g
+    item: cider vinegar
+  method_text: Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies
+    vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo
+    cursus magna, vel scelerisque nisl consectetur et.
+  notes:
+  - Maecenas sed diam eget risus varius blandit sit amet non magna.
+inspirations:
+- 
+layout: post
+---
+
+Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor. Sed posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis.
+
+Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
