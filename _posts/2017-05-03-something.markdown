@@ -10,6 +10,7 @@ intro_text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce d
   tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
   sit amet risus.
 illustration_image: false
+header_image: "/uploads/bread.jpg"
 recipes:
 - ingredients:
   - unit: 1kg
