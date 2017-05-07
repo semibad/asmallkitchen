@@ -23,6 +23,12 @@
 		
 		</section>
 		
+		{% if page.header_image %}
+		<div class='header-img'>  
+		   <img src='{{ page.header_image }}'>
+		</div>
+		{% endif %}
+		
 		{% for recipe in page.recipes %}
 		
 		   {% if recipe.title %}
