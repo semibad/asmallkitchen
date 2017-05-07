@@ -1,22 +1,36 @@
 ---
-title: Something
+title: Good Beans
 date: 2017-05-03 10:14:00 Z
 tags:
-- preserves
-- elderberries
-- foraging
-- sauce
+- brunch
+- breakfast
+- beans
+- tomatoes
 intro_text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus,
   tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
   sit amet risus.
-illustration_image: false
+illustration_image: "/uploads/beans.png"
 header_image: "/uploads/bread.jpg"
 recipes:
 - ingredients:
-  - unit: 1kg
-    item: Elderberries (see notes)
-  - unit: 500g
-    item: cider vinegar
+  - unit: 1
+    item: red onion, finely chopped
+  - unit: 1
+    item: red pepper, finely chopped
+  - unit: 2 cloves
+    item: garlic, crushed
+  - unit: 1 tin
+    item: cannellini or other white beans
+  - unit: 3 tsp
+    item: smoked paprika
+  - unit: 1 tsp
+    item: cumin
+  - unit: 1/2 tsp
+    item: chilli powder
+  - unit: 150g
+    item: ripe tomatoes, chopped
+  - unit: 1 tsp
+    item: honey
   method_text: Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies
     vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo
     cursus magna, vel scelerisque nisl consectetur et.
